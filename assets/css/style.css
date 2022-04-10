@@ -15,13 +15,15 @@ section {
 .header {
     display: flex;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .search-panel {
     width: 25%;
     margin: 10px 20px 0 10px;
     padding: 10px 0 10px 10px;
-    background-color: #DCDCDC;
+    background-color: rgb(132, 159, 168);
+    border-radius: 10px;
 }
 
 .search-button-panel {
@@ -44,8 +46,9 @@ section {
 }
 
 .current-conditions-panel {
-    border: 1px solid #C0C0C0;
-    border-right: none;
+    border: 1px solid black;
+    background-color: rgb(153, 211, 235);
+    border-radius: 10px;
     padding-left: 10px;
     padding-bottom: 30px;
 }
@@ -62,11 +65,12 @@ section {
 }
 
 .forecast-panel {
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .container {
     display: inline;
+    border-radius: 10px;
 }
 
 .card-header,
@@ -84,8 +88,6 @@ section {
 }
 
 
-
-/* Classes Added to Elements */
 
 .favorable {
     background-color: green;

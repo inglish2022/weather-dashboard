@@ -89,7 +89,7 @@ function getFutureWeather(data) {
         currentSelector = "#hum-" + i;
         $(currentSelector)[0].textContent = "Humidity: " + futureWeather.humidity + "%";
         currentSelector = "#wind-speed-" + i;
-        $(currentSelector)[0].textContent = "Wind Speed:" + futureWeather.wind_speed + "mph";
+        $(currentSelector)[0].textContent = "Wind Speed: " + futureWeather.wind_speed + " mph";
     }
 }
 
