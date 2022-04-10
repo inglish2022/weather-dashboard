@@ -15,7 +15,7 @@ https://github.com/inglish2022/weather-dashboard
 ## Screenshot
 
 
-![AltText](assets\images\Screenshot.png)
+![AltText](./assets/images/Screenshot.png)
 
 
 
